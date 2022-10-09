@@ -1,0 +1,72 @@
+:root {
+    --root-font-size: 16px;
+    --background-color: #ffeead;
+    --block-color: #88d8b0;
+}
+
+.block-one {
+    width: 300px;
+    height: 300px;
+    background-color: #104357;
+    border: 40px outset #ff6550;
+    border-radius: 80px;
+}
+
+.block-two {
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+    border-top: 10px double #50bbff;
+    border-bottom: 10px dotted #de50ff;
+}
+
+.block-three {
+    margin: 50px 0 50px 50px;
+    width: 500px;
+    height: 250px;
+    background-color: #158cba ;
+    box-shadow: 0 0 69px rgba(156,61,61, 0.75);
+}
+
+.container {
+    width: 800px;
+    height: 550px;
+    background-color: var(--background-color);
+}
+
+.nav {
+    height: 65px;
+    width: auto;
+    background-color: var(--block-color);
+    text-align: center;
+    padding-top: 25px;
+}
+
+.nav span {
+    font-size: calc(var(--root-font-size) * 2);
+    color: var(--background-color);
+    margin: 0 70px 0 70px;
+}
+
+.content {
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: calc(var(--root-font-size) * 2.7);
+    color: var(--block-color);
+}
+
+.project p {
+    display: inline-block;
+    margin: 10px 10px 30px 10px;
+    width: 200px;
+    height: auto;
+    padding: 10px 5px 60px 5px;
+    background-color: var(--block-color);
+    color: var(--background-color);
+    font-size: calc(var(--root-font-size) * 3);
+}
